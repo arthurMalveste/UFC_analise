@@ -16,4 +16,3 @@ ufc_event_details.to_csv("dados/brutos/ufc_event_details.csv", index=False)
 
 df = pd.read_csv("dados/brutos/ufc_fight_results.csv")
 
-df.info()
